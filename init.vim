@@ -7,9 +7,12 @@ filetype off			" required
 
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'morhetz/gruvbox'
+Plug 'morhetz/gruvbox' 
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'} "nodejs 12.x is required:
+
 
 call plug#end()
 
