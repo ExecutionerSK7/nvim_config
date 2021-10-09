@@ -12,7 +12,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "nodejs 12.x is required:
-
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -28,6 +28,9 @@ set nowrap
 set smartcase
 set hlsearch
 set noerrorbells
-set tabstop=5 softtabstop=4
+set tabstop=4 softtabstop=3
+set shiftwidth=4
+set expandtab
 set expandtab
 set smartindent
+
